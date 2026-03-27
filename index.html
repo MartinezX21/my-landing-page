@@ -3,10 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css" integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/index.css">
     <title>Hello World - Martin Xavier Tchembe</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Greetings from Martin!</p>
+    <header>
+        <div class="logo" role="img" aria-label="Martin's avatar">
+            MT
+        </div>
+        <h1>Martin Tchembe</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container contact">
+            <h2 class="w-full m-0">Let's discuss your Project</h2>
+            <div class="contact-info">
+                <div class="profile-wrapper">
+                    <div class="profile-photo" role="img" aria-label="Martin's profile picture">
+                        <img src="assets/images/profile.png" alt="Martin's profile picture" class="profile-pic">
+                    </div>
+                    <div class="profile-description">
+                        <p class="text-gray">I'm available for freelance work. Drop me a line if you have a project you think I'd be a good fit for.</p>
+                        <div class="socials">
+                            <a href="https://github.com/MartinezX21" target="_blank" rel="noopener noreferrer" title="Martin's github account link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/martin-xavier-tchembe/" target="_blank" rel="noopener noreferrer" title="Martin's LinkedIn account link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=61558502415375" target="_blank" rel="noopener noreferrer" title="Martin's Facebook account link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div role="img" aria-label="Address icon" class="icon">
+                        <i class="fa-solid fa-map-marker-alt"></i>
+                    </div>
+                    <p class="m-0">
+                        <span>My address:</span> <br/>
+                        <span class="text-important">Brampton, ON</span>
+                    </p>
+                </div>
+                <div class="contact-item">
+                    <div role="img" aria-label="Envelope icon" class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <p class="m-0">
+                        <span>My email:</span> <br/>
+                        <span class="text-important">martinxaviertchembe@gmail.com</span>
+                    </p>
+                </div>
+                <div class="contact-item">
+                    <div role="img" aria-label="Phone icon" class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <p class="m-0">
+                        <span>My phone:</span> <br/>
+                        <span class="text-important">+1 (123) 456-7890</span>
+                    </p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <p class="text-gray">I'm always open to discussing product design work or partnership opportunities.</p>
+                <form action="" class="w-full">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea> 
+                    </div>
+                    <button type="submit" class="btn">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
